@@ -125,7 +125,7 @@ function player1win () {
 }
 function player2win () {
 	player2score++;
-	const player2scoreDisplay = document.getElementById ("player1score");
+	const player2scoreDisplay = document.getElementById ("player2score");
 	player2scoreDisplay.textContent = player2score;
 	console.log (player2score);
 }
